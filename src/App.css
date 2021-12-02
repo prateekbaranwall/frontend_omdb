@@ -1,0 +1,63 @@
+.header{
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  box-shadow: 0px 1px 5px red;
+  font-size: 5vw;
+  color: white;
+  position: sticky;
+}
+.bottom{
+  background-color: black;
+  color: white;
+/* overflow: hidden; */
+display: flex;
+justify-content: center;
+position: fixed;
+bottom: 0;
+width: 100%;
+box-shadow: 0px 1px 10px red;
+}
+
+.searchBar{
+  display: flex;
+  justify-content: center;
+  /* margin:0 auto; */
+  /* width:575px; */
+  width: 40vw;
+  border-radius:30px;
+  border:1px solid #0a0a0a;
+  background-color: white;
+  margin-top: 5px;
+  margin-bottom: 8px;
+  
+}
+.search{
+  height:3vw;
+border:none;
+width:35vw;
+font-size:1.5vw;
+outline: none;
+}
+.mid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  padding-top: 1vw;
+  padding-bottom: 7vw;
+  /* gap: px; */
+  /* margin-top: 20px; */
+}
+.App{
+  background-color: #edf1f6;
+  min-height: 100vh;
+}
+.homeImg{
+  opacity: 50%;
+  height: 15vw;
+  margin-top: 6vw;
+
+}
